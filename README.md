@@ -1,4 +1,4 @@
-#[PROJET] Première version d'un projet d'API REST destinée à l'exploitation de données depuis une BDD, en se basant sur un modèle type MVC
+#  [PROJET] Première version d'un projet d'API REST destinée à l'exploitation de données depuis une BDD, en se basant sur un modèle type MVC
 
 Le projet a été entièrement réalisé en PHP, combiné au framework [Medoo](https://medoo.in/).
 
