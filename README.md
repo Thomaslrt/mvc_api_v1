@@ -21,10 +21,10 @@ L'utilisation de cette API reste assez simple, il suffit de vous placer dans le 
 Une fois cloné, ouvrez le fichier ```Model.class.php``` et modifiez ces variables avec les identifiants de votre base de données :
 
 ```
-    private const HOST = 'localhost';
-    private const DB = 'mvc';
-    private const USER = 'root';
-    private const PWD = '';
+private const HOST = 'localhost';
+private const DB = 'mvc';
+private const USER = 'root';
+private const PWD = '';
 ```
 Il vous faut aussi importer le fichier ```database.sql``` présent à la racine, afin d'avoir les bonnes tables de disponible, et faire la liaison avec le projet.
 
