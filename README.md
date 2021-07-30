@@ -18,20 +18,13 @@ L'utilisation de cette API reste assez simple, il suffit de vous placer dans le 
 
     git clone https://github.com/Thomaslrt/mvc_api_v1
     
-Une fois cloné, ouvrez le fichier ```Model.class.php``` et modifiez la ligne avec les identifiants de votre base de données :
+Une fois cloné, ouvrez le fichier ```Model.class.php``` et modifiez ces variables avec les identifiants de votre base de données :
 
 ```
-private static function initDatabase(){
-       self::$database = new Medoo\Medoo([
-           'database_type' => 'mysql',
-           'database_name' => self::DB,
-           'server' => self::HOST,
-           'username' => self::USER,
-           'password' => self::PWD,
-           "charset" => "utf8",
-           PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-       ]);
-    }
+    private const HOST = 'localhost';
+    private const DB = 'mvc';
+    private const USER = 'root';
+    private const PWD = '';
 ```
 Il vous faut aussi importer le fichier ```database.sql``` présent à la racine, afin d'avoir les bonnes tables de disponible, et faire la liaison avec le projet.
 
