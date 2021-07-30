@@ -18,7 +18,7 @@ L'utilisation de cette API reste assez simple, il suffit de vous placer dans le 
 
     git clone https://github.com/Thomaslrt/mvc_api_v1
     
-Une fois cloné, ouvrez le fichier ```Model.class.php``` et modifiez ces variables avec les identifiants de votre base de données :
+Une fois cloné, ouvrez le fichier ```models/Model.class.php``` et modifiez ces variables avec les identifiants de votre base de données :
 
 ```
 private const HOST = 'localhost';
